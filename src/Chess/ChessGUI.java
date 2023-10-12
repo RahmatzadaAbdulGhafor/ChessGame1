@@ -15,7 +15,14 @@ public class ChessGUI {
         frame.setBounds(10,10,512,512);
         frame.setUndecorated(true);
 
-        BufferedImage all= ImageIO.read(new File("C:\\Users\\Ghafo\\Desktop\\projects\\ChessGame1\\images\\chessPieces.png"));
+        //ghafors-directory
+
+
+
+        //
+
+
+        BufferedImage all= ImageIO.read(new File("images//chessPieces.png"));
         Image imgs[]=new Image[12];
         int ind=0;
         for(int y=0;y<400;y+=200){
